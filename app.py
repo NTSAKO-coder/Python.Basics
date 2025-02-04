@@ -1,0 +1,1 @@
+print('Hello Ntsako') # first line code
