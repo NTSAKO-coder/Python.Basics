@@ -1,4 +1,4 @@
-#print('Hello Ntsako') # first line code
+#print('Hello Ntsako') 
 
 #name = input("What's your name?")
 #age = input('How old are you?')
@@ -8,13 +8,25 @@
 
 #conditional statement#
 
-X = 2
+#X = 2
 
-if X > 2:
-    print("you've gotten only 23")
-elif X ==5:
-    print("gotten just 2")
+#if X > 2:
+    #print("you've gotten only 23")
+#elif X ==5:
+    #print("gotten just 2")
     
-else:X
-print("such a low score")
+#lse:X
+#print("such a low score")
+
+age = 18
+has_id = True
+
+if age >= 18 and has_id == "yes":
+    print("Access granted.")
+
+else:
+    print("Access denied. You must be at least 18 years old.")
+    
+
+    
 
