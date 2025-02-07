@@ -18,12 +18,24 @@
 #lse:X
 #print("such a low score")
 
-age = 18
-has_id = True
+#age = 18
+#has_id = True
 
-if age >= 18 and has_id == "yes":
-    print("Access granted.")
+#if age >= 18 and has_id == "yes":
+    #print("Access granted.")
 
+#else:
+    #print("Access denied. You must be at least 18 years old.")
+    
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    has_id = input("Do you have an ID? (yes/no): ")
+    
+    if has_id == "yes":
+        print("Access granted.")
+    else:
+        print("Access denied. You need an ID.")
 else:
     print("Access denied. You must be at least 18 years old.")
     
